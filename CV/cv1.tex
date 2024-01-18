@@ -1,0 +1,193 @@
+\documentclass[9pt]{article}
+\usepackage{blindtext}
+\usepackage{multicol}
+\usepackage{geometry}
+\usepackage{float}
+\usepackage{array}
+\usepackage{romannum}
+\usepackage{hyperref}
+\usepackage{fontawesome}
+\usepackage{enumitem}
+
+
+
+
+\newcommand{\header}[1]{
+	\par\addvspace{0.6cm}%
+	{\Large{\textbf{\MakeUppercase{#1}}}}%
+	\par\addvspace{0.3cm}%
+	\hrule%
+	\par\addvspace{0.3cm}%
+}
+
+
+
+
+\geometry{
+	a4paper,
+	top = 10mm,
+	left = 10mm,
+	right = 10mm,
+	bottom = 10mm,
+}
+
+\parindent 0pt
+
+\setlength{\columnsep}{0.7cm}
+
+\thispagestyle{empty}
+
+
+
+
+\begin{document}
+
+
+
+\begin{minipage}[t]{0.6\textwidth}
+	{\huge\textbf{Md Aakib Alam Ansari}}\\
+	\Large Final Year Undergraduate\\
+	Dept.\ of Mathematics \& Scientific Computing\\
+	Indian Institute of Technology, Kanpur
+\end{minipage}
+\begin{minipage}[t]{0.4\textwidth}
+	\flushright
+	\Large
+    \href{mailto: aakib1e97@gmail.com}{aakib1e97@gmail.com \faEnvelope{}}\\
+    \href{https://aa0808.netlify.app}{https://aa0808.netlify.app \faHome{}}\\
+    \href{https://github.com/AakibAlam}{AakibAlam \faGithub{}} \textbar\ \href{https://www.linkedin.com/in/aakib-alam/}{aakib-alam \faLinkedin{}} \\
+    +91-8252165221 \faPhone{}
+\end{minipage}
+
+
+
+
+\header{Educational qualifications}
+\vspace{-6.8mm}
+\begin{table}[H]
+	\def\arraystretch{1.2}
+	\begin{tabular}{|>{\centering\arraybackslash}p{5cm}|>{\centering\arraybackslash}p{3cm}|>{\centering\arraybackslash}p{9.675cm}|}
+		Year & Degree & Institution\\
+		\hline
+		2020 - 2024 (Expected) & BS, MTH & Indian Institute of Technology, Kanpur\\
+		2018 - 2020 & BSEB - \Romannum{12} & Patna Muslim High School, Patna\\
+		2016 - 2018 & AMU - \Romannum{10} & Saiyyid Hamid Senior Secondary School, Aligarh\\
+		\hline
+	\end{tabular}
+
+
+\end{table}
+
+
+
+
+
+\begin{minipage}[t]{0.5\textwidth}
+
+
+	\header{Achievements}
+	\begin{itemize}[itemsep=1pt, left=0pt]
+		\item AIR 2884, JEE Adv. 2020 (among 200000 candidate)	
+		\item AIR 2727, JEE Main 2020 (among 1200000 candidate)
+		\item Among National Top 1\% out of 50k in NSEJS 2018
+		\item \textbf{Candidate Master} - Codeforces [handle: \href{https://codeforces.com/profile/sultan__/}{sultan\_\_}]
+		\item \textbf{5 \faStarO{}}\ - Codechef [\href{https://www.codechef.com/users/temp0rary}{temp0rary}] (among top 0.5\% Indians)
+	\end{itemize}%
+	
+	
+	\header{work experience}
+	\begin{itemize}[label={}, left=0pt]
+		\item \textbf{YUBI \textbar\ Software Engineer} \hfill \textit{Chennai, India}\\
+		\textit{Summer Intern} \hfill \textit{May'23-July'23}
+		\vspace{-1.5mm}
+		\begin{itemize}[label={\textbullet}, left=0pt]
+			\item Collaborated with the platform team to create an application for implementing an RBAC (Role-Based Access Control) model.
+			\item Employed the Spring Boot framework and PostgreSQL to replicate relationships among products, entities, users, resources and roles.
+			\item Created diverse APIs within Spring Boot, incorporating SQL queries to facilitate seamless interaction between clients and the database.
+			\item Conducted thorough testing of the developed code using tools such as Postman for API testing and pgAdmin4 for efficient database management.
+		\end{itemize}%
+	\end{itemize}%
+	
+	
+	\header{Miscellaneous}
+	\begin{itemize}[itemsep=1pt, label={\textbullet}, left=0pt]
+		\item With a team of 6 members, we got \textbf{1st} position in technical event Techweek organised by Science \& Technology Council
+IITK in 1st year, competing with 100+ teams.
+		\item \textbf{Senior Executive} in Events team, Udghosh’22, Coordinated various events with a team of 20 individuals
+		\item Certified \textbf{Blue} Belt by Uttar Pradesh Taekwondo Association (UPTA). Secured a bronze medal in the Poomsae event at Udshosh'23 Taekwondo competition
+		\item Secured Institute rank 2 and Global rank 22 in Inter-IIT CP contest hosted by IIT Gandhinagar held at Codechef
+	\end{itemize}
+		
+\end{minipage}%
+\hspace{10mm}%
+\begin{minipage}[t]{0.447\textwidth}
+
+
+	\header{projects}
+	
+	\begin{itemize}[label={}, left=0pt]
+		\item \textbf{Codeforces Submsission Scraping} \hfill \href{https://github.com/AakibAlam/codeforces-submission-scraping}{\faGithub}\\
+		\textit{Self Project} \hfill \textit{Nov'23-Dec'23}
+		\vspace{-1mm}
+		\begin{itemize}[label={\textbullet}, left=0pt]
+			\item Developed a solution to scrape Codeforces submissions made by friends in the past 24 hours
+			\item Utilized Selenium library in Python for web scraping
+			\item Implemented the Sendgrid API to facilitate the sending of emails containing submission details
+		\end{itemize}%
+		
+			\item \textbf{Movie Recommendation System} \hfill \href{https://github.com/AakibAlam/movie-recommender-system}{\faGithub}\\
+			\textit{Self Project} \hfill \textit{Jan'23-Mar'23}
+			\vspace{-1mm}
+			\begin{itemize}[label={\textbullet}, left=0pt]
+				\item The system suggests movies more likely to be enjoyed based on user input or selected genre
+				\item Applying TF-IDF Vectorizer for text analysis
+				\item Utilized Cosine Similarity for recommendations and SQLAlchemy for database management
+				\item Developed webapp with Flask, HTML, CSS \& JS
+			\end{itemize}
+			
+			\item \textbf{Breaking Cryptosystems} \hfill \href{https://github.com/AakibAlam/breaking-cryptosystems}{\faGithub}\\
+			\textit{Prof. Manindra Agrawal} \hfill \textit{Jan'23-Apr'23}
+			\vspace{-1mm}
+			\begin{itemize}[label={\textbullet}, left=0pt]
+				\item Analyzed and implemented cipher algorithms like DES, AES, RSA, and SHA3, using C++
+				\item Discovered hidden keys through cryptanalysis for various ciphers
+			\end{itemize}
+			
+			\item \textbf{Connecting The First Search} \hfill \href{https://github.com/AakibAlam/connecting_the_first_search}{\faGithub}\\
+			\textit{Stamatics Society, IITK} \hfill \textit{Apr'22-Jun'22}
+			\vspace{-1mm}
+			\begin{itemize}[label={\textbullet}, left=0pt]
+				\item Focused on Graph Algorithms based on (dfs/bfs)
+				\item Learned Shortest Path, Cycle-detection, Bridge-finding and MST algorithms
+			\end{itemize}
+		
+	\end{itemize}
+	
+	
+	\header{Skills}
+	\begin{itemize}[label={}, itemsep=0.0mm, left=0pt]
+		\item \textbf{Proficient:} Java, Javascript, SQL
+		\item \textbf{Experienced:} C/C++, Python
+		\item \textbf{Exposure:} R, Golang, Matlab
+		\item \textbf{Utilities:} Shell Utilities, Git, STL, Springboot, Postman, MongoDB, PostgreSQL, Flask, React, \LaTeX\
+	\end{itemize}
+	
+	
+\end{minipage}
+
+
+\header{Relevant courses}
+\vspace{-4mm}
+\begin{table}[H]
+	\begin{tabular}{p{5cm}p{4.5cm}p{4.5cm}p{4cm}}
+	Fundamentals of Computing & Computer Programming & Probability \& Statistics & Modern Cryptology\\
+	Data Structures \& Algorithms & Advanced Algorithms & Randomized Algorithms & Operating System\\
+	Database Management System & Set Theory and Logic & Numerical Analysis-\Romannum{1} & Numerical Analysis-\Romannum{2}\\
+	
+	\end{tabular}
+\end{table}
+
+
+
+
+\end{document}
